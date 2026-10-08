@@ -1,0 +1,6 @@
+try:
+    result = 10 + "20"
+    print(result)
+
+except TypeError:
+    print("Cannot add different data types.")

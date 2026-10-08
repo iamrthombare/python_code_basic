@@ -1,0 +1,14 @@
+t1 = (1, 2, 3)            # with parentheses
+t2 = 1, 2, 3              # without parentheses (comma makes the tuple!)
+t3 = ()                   # empty tuple
+t4 = (5,)                 # single-item tuple: the comma is REQUIRED
+t5 = 5,                   # also single-item tuple
+t6 = (5)                  # NOT a tuple, this is just int 5
+t7 = tuple([1, 2, 3])     # from any iterable
+t8 = tuple("abc")         # ('a', 'b', 'c')
+t9 = tuple(range(5))      # (0, 1, 2, 3, 4)
+t10 = tuple({1, 2})       # from a set
+t11 = tuple({"a": 1})     # ('a',), keys only
+t12 = tuple(x*x for x in range(4))   # from a generator -> (0, 1, 4, 9)
+t13 = (1, 2) + (3, 4)     # concatenation
+t14 = (0,) * 5            # repetition -> (0, 0, 0, 0, 0)
